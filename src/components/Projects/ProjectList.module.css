@@ -1,0 +1,21 @@
+.project-container {
+	width: 1024px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #ffffff;
+	padding: 1em;
+	margin: 1em auto;
+}
+
+.project-container {
+	content: "";
+	flex: auto;
+}
+
+.project-container.item {
+	height: 10em;
+	width: 25%;
+	padding: 0.5em;
+	box-sizing: border-box;
+}
